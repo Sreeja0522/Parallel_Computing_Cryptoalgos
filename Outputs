@@ -1,0 +1,30 @@
+Outputs of the des code implementation file desalgo.c :
+
+Output:
+Plaintext : ABCEA123567893F
+Key       : 133457799BBCDFF1
+Ciphertext: B83C9839D83D1BE7
+Time taken for 100000 iterations: 2.995 seconds
+
+Output:
+Plaintext : ABCEA123567893F
+Key       : 133457799BBCDFF1
+Ciphertext: B83C9839D83D1BE7
+Time taken for 1000000 iterations: 30.416 seconds
+
+Outputs of the mpi implementation of des code file mpihello.c :
+
+Output:
+Plaintext : ABCEA123567893F
+Key       : 133457799BBCDFF1
+Ciphertext: B83C9839D83D1BE7
+Time taken for 100000 iterations: 1.025 seconds
+
+Output:
+Plaintext : ABCEA123567893F
+Key       : 133457799BBCDFF1
+Ciphertext: B83C9839D83D1BE7
+Time taken for 1000000 iterations: 9.401 seconds
+
+RESULTS:
+The time taken speedup is ~ 3x after mpi implementation.
