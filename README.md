@@ -5,23 +5,37 @@
 This project leverages parallel computation using MPI (Message Passing Interface) to accelerate the DES encryption algorithm.
 
 • Encryption tasks are divided and distributed across multiple processes to enable concurrent execution.
+
 • The primary goal is to reduce execution time compared to the sequential approach.
+
 • It also aims to improve scalability to handle larger datasets efficiently.
+
 • Key focus areas include:
+
 • Efficient workload distribution among processes
+
 • Minimizing communication overhead to maintain high performance
+
 • Overall, the project demonstrates how parallelism can enhance the speed and efficiency of cryptographic operations.
 
 **Introduction :**
 
  This project focuses on accelerating encryption performance using distributed computing techniques.
+
 • At the core of this approach is the Message Passing Interface (MPI), a powerful tool for building parallel applications through inter-process communication.
+
 • MPI enables efficient task distribution and coordination among processes running on different nodes or cores.
+
 • This project applies MPI to implement a parallelized version of the DES (Data Encryption Standard) encryption algorithm.
+
 • Traditional sequential DES suffers from increased latency when processing large volumes of data.
+
 • By parallelizing the DES algorithm, the project aims to improve encryption speed, reduce execution time, and scale better with growing data demands.
+
 • The implementation explores various load balancing and communication strategies to enhance overall efficiency.
+
 • The project began in February 2025 and is currently in progress.
+
 • Tools and technologies used include:
     • MPI (Message Passing Interface)
     • C programming language
